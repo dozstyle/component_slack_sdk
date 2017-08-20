@@ -1,2 +1,2 @@
 # component_slack_sdk
-this SDK is for slack API
+This SDK is used for Slack API

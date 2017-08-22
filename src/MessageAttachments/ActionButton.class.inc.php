@@ -6,7 +6,9 @@
   # https://api.slack.com/methods/im.replies
   # https://api.slack.com/methods/mpim.replies
 
-  class SlackMessageActionButton {
+  namespace DozStyle\Slack\MessageAttachments
+
+  class ActionButton {
     private $name;
     private $text;
     private $type;

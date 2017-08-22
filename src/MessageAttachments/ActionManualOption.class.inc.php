@@ -1,6 +1,9 @@
 <?php
   # https://api.slack.com/docs/interactive-message-field-guide#option_fields
-  class SlackMessageActionManualOption {
+
+  namespace DozStyle\Slack\MessageAttachments
+
+  class ActionManualOption {
     private $text;
     private $value;
     private $description;

@@ -1,5 +1,8 @@
 <?php
-  class SlackMessageAttachments {
+
+  namespace DozStyle\Slack\MessageAttachments
+
+  class AttachmentBuilder {
     private $attachments;
 
     public function __construct() {

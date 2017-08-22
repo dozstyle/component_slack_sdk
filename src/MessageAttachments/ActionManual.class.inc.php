@@ -6,7 +6,9 @@
   # https://api.slack.com/methods/im.replies
   # https://api.slack.com/methods/mpim.replies
 
-  class SlackMessageActionManual {
+  namespace DozStyle\Slack\MessageAttachments
+
+  class ActionManual {
     private $name;
     private $text;
     private $type;

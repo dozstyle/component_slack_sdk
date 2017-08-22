@@ -1,5 +1,8 @@
 <?php
-  class SlackMessageAttachment {
+
+  namespace DozStyle\Slack\MessageAttachments
+
+  class Attachment {
     private $fallback;
     private $callback_id;
     private $actions;

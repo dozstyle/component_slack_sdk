@@ -1,0 +1,19 @@
+{
+    "name": "dozstyle/component_slack_sdk",
+    "description": "This toolkit is used to speed up develop slack app and powered by DozStyle organization",
+    "type": "library",
+    "license": "dozstyle",
+    "minimum-stability": "master",
+    "authors": [
+        {
+            "name": "Lego Chen",
+            "email": "chenlego@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "DozStyle\\Slack\\MessageAttachments\\": "src/MessageAttachments/"
+      }
+    }
+}

@@ -2,7 +2,10 @@
   # https://api.slack.com/docs/message-buttons
   # There is no field document in https://api.slack.com/docs/interactive-message-field-guide
   # But, here has an example that used field in the attachment
-  class SlackMessageField {
+
+  namespace DozStyle\Slack\MessageAttachments
+
+  class Field {
     private $title;
     private $value;
     private $short;

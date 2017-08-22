@@ -1,6 +1,9 @@
 <?php
   # https://api.slack.com/docs/interactive-message-field-guide#confirmation_fields
-  class SlackMessageActionButtonConfirm {
+
+  namespace DozStyle\Slack\MessageAttachments
+
+  class ActionButtonConfirm {
     private $title;
     private $text;
     private $ok_text;

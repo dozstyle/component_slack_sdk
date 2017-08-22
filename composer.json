@@ -3,7 +3,7 @@
     "description": "This toolkit is used to speed up develop slack app and powered by DozStyle organization",
     "type": "library",
     "license": "dozstyle",
-    "minimum-stability": "master",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Lego Chen",
